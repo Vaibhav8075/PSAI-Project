@@ -36,7 +36,7 @@ const Services = () => {
       />
       <Servicecrd
         title="Hardware Maintanance"
-        description="PJIPL's outstanding services in the Field of Computer Hardware Maintenance. Our philosophy of dealing direct enables us to anticipate, understand and address your unique needs and supply you with customized solutions that provide the maximum return on your IT investment."
+        description="PJIPL's outstanding services in the Field of Computer Hardware Maintenance. Our philosophy of dealing direct enables us to anticipate, understand and address your unique needs and supply you with customized solutions that provide the maximum return on your IT investment."
         image="src/assets/images/image (2).png"
         reverse
       />

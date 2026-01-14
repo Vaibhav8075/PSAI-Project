@@ -1,7 +1,6 @@
-import React from 'react' 
+import React from "react";
 
-
-const Servicecrd = ({title, description, image, reverse}) => {
+const Servicecrd = ({ title, description, image, reverse }) => {
   return (
     <div
   className={`flex flex-col md:flex-row ${
@@ -22,7 +21,7 @@ const Servicecrd = ({title, description, image, reverse}) => {
             />
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Servicecrd
+export default Servicecrd;
