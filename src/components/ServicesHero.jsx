@@ -3,31 +3,31 @@ import React, { useState } from "react";
 const services = [
   {
     title: "Social Media Marketing",
-    image: "src/assets/sa-1.jpg",
+    image: "src/assets/images/scroll1.png",
   },
   {
     title: "Web Design",
-    image: "src/assets/sa-2.jpg",
+    image: "src/assets/images/scroll2.png",
   },
   {
     title: "System Integration",
-    image: "src/assets/sa-3.jpg",
+    image: "src/assets/images/scroll7.png",
   },
   {
     title: "Staff Augmentation",
-    image: "src/assets/sa-1.jpg",
+    image: "src/assets/images/scroll3.png",
   },
   {
     title: "Software Development",
-    image: "src/assets/sa-1.jpg",
+    image: "src/assets/images/scroll4.png",
   },
   {
     title: "Training & Upskilling",
-    image: "src/assets/sa-1.jpg",
+    image: "src/assets/images/scroll5.png",
   },
   {
     title: "Hardware Maintenance",
-    image: "src/assets/sa-1.jpg",
+    image: "src/assets/images/scroll6.png",
   },
 ];
 
