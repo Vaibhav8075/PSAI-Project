@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div>
       {/* <Services /> */}
-      {/*<SystemIntegrate /> */}
-      <SocialMediaMarketing/>
+      <SystemIntegrate /> 
+      {/*<SocialMediaMarketing/> */}
       
     </div>
   );
