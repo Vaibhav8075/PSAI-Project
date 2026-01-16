@@ -3,6 +3,7 @@ import Services from "./components/services.jsx";
 import SystemIntegrate from "./components/SystemIntegrate.jsx";
 import SocialMediaMarketing from "./components/social-media-marketing/SocialMediaMarketing.jsx";
 import BlogPage from "./components/blog/BlogPage.jsx";
+import Portfolio from "./components/portfolio/Portfolio.jsx";
 import ContactUs from "./components/contact-us/ContactUs.jsx";
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Services /> */}
       {/*<SystemIntegrate /> */}
       {/*<SocialMediaMarketing/> */}
-      <BlogPage/>
+      {/*<BlogPage/>*/}
+      <Portfolio/>
       {/*<ContactUs/>*/}
     </div>
   );
