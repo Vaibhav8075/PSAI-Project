@@ -8,19 +8,21 @@ import ContactUs from "./components/contact-us/ContactUs.jsx";
 import BlogDetail from "./components/blog-detail/BlogDetail.jsx";
 import PortfolioDetails from "./components/PortfolioDetails/PortfolioDetails.jsx";
 import Careers from "./components/Careers/Careers.jsx";
+import CareersApply from "./components/CareersApply/CareersApply.jsx";
 
 const App = () => {
   return (
     <div>
       {/* <Services /> */}
-      {/*<SystemIntegrate /> */} 
+      <SystemIntegrate /> 
       {/*<SocialMediaMarketing/> */}
       {/*<BlogPage/>*/}
       {/*<Portfolio/>*/}
       {/*<ContactUs/>*/}
       {/* <BlogDetail/> */}
       {/* <PortfolioDetails/> */}
-      <Careers/>
+      {/* <Careers/> */}
+      {/* <CareersApply/> */}
     </div>
   );
 };
