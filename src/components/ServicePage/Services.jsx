@@ -1,6 +1,6 @@
 import React from "react";
 import Servicecrd from "./Servicecrd.jsx";
-import SpecialService from "./SpecialService";
+import SpecialService from "./SpecialService.jsx";
 
 const Services = () => {
   return (

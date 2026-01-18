@@ -1,12 +1,14 @@
-import React from "react";
-import Services from "./components/services.jsx";
-import SystemIntegrate from "./components/SystemIntegrate.jsx";
+import Services from "./components/ServicePage/Services";
+import SystemIntegrate from "./components/SystemIntegrationPage/SystemIntegrate";
+import TrainingUpskillingDetailPage from "./components/TrainingUpskillingDetailPage";
 
 const App = () => {
   return (
     <div>
-      {/* <Services /> */}
-      <SystemIntegrate />
+      {/* <Services />   */}
+      {/* <SystemIntegrate /> */}
+      <TrainingUpskillingDetailPage />
+    
       
     </div>
   );
