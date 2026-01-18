@@ -5,7 +5,6 @@ import ProcessSection from "./ProcessSection";
 import ClientsShowcase from "./ClientsShowcase";
 import CTASection from "./CTASection";
 import Testimonials from "./Testimonials";
-// import img17 from "src/assets/images/image (17).png";
 
 const WebDesignPage = () => {
   return (
@@ -17,7 +16,6 @@ const WebDesignPage = () => {
       <ClientsShowcase />
       <CTASection />
       <Testimonials />
-
     </>
   );
 };

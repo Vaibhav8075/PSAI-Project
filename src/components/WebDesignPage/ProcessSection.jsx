@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProcessSection = () => {
   return (
     <section className="w-full  bg-gray-50 py-24">
