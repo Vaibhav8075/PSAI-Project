@@ -37,7 +37,7 @@ const App = () => {
       </main>
 
       <Footer />
-    <div>
+    {/* <div>
       <Services /> 
       <SystemIntegrate /> 
       <SocialMediaMarketing/>
@@ -52,7 +52,7 @@ const App = () => {
        <Careers/> 
        <CareersApply/> 
        <NotFound/> 
-    </div>
+    </div> */}
   </div>
   );
 };
