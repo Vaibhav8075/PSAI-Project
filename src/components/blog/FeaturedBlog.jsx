@@ -1,3 +1,9 @@
+import React from "react";
+
+// ✅ Import images (Vite-safe)
+import c13 from "../../assets/images/c13.png";
+import c14 from "../../assets/images/c14.png";
+
 const FeaturedBlog = () => {
   return (
     <div className="lg:col-span-2 flex flex-col gap-16">
@@ -5,7 +11,7 @@ const FeaturedBlog = () => {
       {/* TOP FEATURED BLOG */}
       <div className="flex gap-8 items-start">
         <img
-          src="/src/assets/images/c13.png"
+          src={c13}
           alt="featured"
           className="w-[360px] h-[260px] object-cover rounded-2xl"
         />
@@ -20,7 +26,7 @@ const FeaturedBlog = () => {
           <p className="text-gray-600 mb-4">
             The goal of social media marketing is to boost brand
             awareness, engage target audiences, and drive website
-            traffic through compelling content. It aims to .
+            traffic through compelling content. It aims to.
           </p>
 
           <button className="text-orange-500 font-medium">
@@ -41,7 +47,7 @@ const FeaturedBlog = () => {
           <p className="text-gray-600 mb-4">
             The goal of social media marketing is to boost brand
             awareness, engage target audiences, and drive website
-            traffic through compelling content. It aims to .
+            traffic through compelling content. It aims to.
           </p>
 
           <button className="text-orange-500 font-medium">
@@ -50,12 +56,11 @@ const FeaturedBlog = () => {
         </div>
 
         <img
-          src="/src/assets/images/c14.png"
+          src={c14}
           alt="featured"
           className="w-[360px] h-[260px] object-cover rounded-2xl"
         />
       </div>
-
     </div>
   );
 };
