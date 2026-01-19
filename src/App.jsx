@@ -9,6 +9,7 @@ import BlogDetail from "./components/blog-detail/BlogDetail.jsx";
 import PortfolioDetails from "./components/PortfolioDetails/PortfolioDetails.jsx";
 import Careers from "./components/Careers/Careers.jsx";
 import CareersApply from "./components/CareersApply/CareersApply.jsx";
+import NotFound from "./components/NotFound.jsx";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       {/* <PortfolioDetails/> */}
       {/* <Careers/> */}
       {/* <CareersApply/> */}
+      <NotFound/>
     </div>
   );
 };
