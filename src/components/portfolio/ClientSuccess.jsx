@@ -40,7 +40,7 @@ const ClientSuccess = () => {
           className="w-[220px] h-[300px] object-cover rounded-2xl"
         />
         <img
-          src="/src/assets/images/image (9).png"
+          src="/src/assets/images/image(9).png"
           className="w-[220px] h-[200px] object-cover rounded-2xl"
         />
       </div>
