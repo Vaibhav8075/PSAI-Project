@@ -1,6 +1,6 @@
-import c1 from "../../assets/images/image (23).png";
-import c2 from "../../assets/images/image (24).png";
-import c3 from "../../assets/images/image (25).png";
+import c1 from "../../assets/images/image(23).png";
+import c2 from "../../assets/images/image(24).png";
+import c3 from "../../assets/images/image(25).png";
 
 const clients = [c1, c2, c3];
 

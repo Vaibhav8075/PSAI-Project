@@ -22,11 +22,11 @@ const SystemContent = () => {
 
       <div className="grid grid-cols-2 gap-6">
         <img
-          src="src/assets/images/image (6).png"
+          src="src/assets/images/image(6).png"
           className="rounded-xl object-cover"
         />
         <img
-          src="src/assets/images/image (7).png"
+          src="src/assets/images/image(7).png"
           className="rounded-xl object-cover"
         />
       </div>

@@ -19,7 +19,7 @@ const LearningOutcomes = () => {
         </div>
 
         <img
-          src="src/assets/images/image (14).png"
+          src="src/assets/images/image(14).png"
           className="rounded-xl object-cover"
         />
       </div>

@@ -50,9 +50,8 @@ const ClientSuccess = () => {
           className="w-[160px] sm:w-[200px] lg:w-[220px] h-[240px] sm:h-[280px] lg:h-[300px] object-cover rounded-2xl"
         />
         <img
-          src={image9}
-          alt="client success 2"
-          className="w-[160px] sm:w-[200px] lg:w-[220px] h-[160px] sm:h-[180px] lg:h-[200px] object-cover rounded-2xl"
+          src="/src/assets/images/image(9).png"
+          className="w-[220px] h-[200px] object-cover rounded-2xl"
         />
       </div>
     </section>

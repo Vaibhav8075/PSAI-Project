@@ -9,7 +9,7 @@ const ProcessSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
           <div className="flex flex-col items-center text-center gap-6">
             <img
-              src="src/assets/images/image (21).png"
+              src="src/assets/images/image(21).png"
               alt="Consultation"
               className="rounded-2xl w-full max-w-sm object-cover"
             />
@@ -30,7 +30,7 @@ const ProcessSection = () => {
 
           <div className="flex justify-center">
             <img
-              src="src/assets/images/image (22).png"
+              src="src/assets/images/image(22).png"
               alt="Process"
               className="rounded-2xl w-full max-w-md object-cover"
             />
