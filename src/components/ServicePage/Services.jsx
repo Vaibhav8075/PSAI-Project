@@ -4,7 +4,7 @@ import SpecialService from "./SpecialService.jsx";
 import WhatWeDo from "./WhatWeDo.jsx";
 import ServicesHero from "./ServicesHero.jsx";
 import webdesign2 from "../../assets/images/webdesign2.png";
-import webdesign1 from "../../assets/images/Webdesign1.png";
+import webdesign1 from "../../assets/images/webdesign1.png";
 import training1 from "../../assets/images/training1.png";
 import software1 from "../../assets/images/software1.png";
 import software2 from "../../assets/images/software2.png";
