@@ -6,11 +6,11 @@ import image9 from "../../assets/images/c1.png";
 
 const ClientSuccess = () => {
   return (
-    <section className="mt-28 flex flex-col lg:flex-row items-start gap-16">
+    <section className="mt-20 md:mt-28 flex flex-col lg:flex-row items-start gap-10 lg:gap-16">
       
       {/* LEFT TEXT */}
-      <div className="max-w-xl">
-        <h2 className="text-2xl font-semibold mb-4">
+      <div className="max-w-xl w-full">
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4">
           Client Success Stories
         </h2>
 
@@ -22,7 +22,7 @@ const ClientSuccess = () => {
           <span>August 02, 2025</span>
         </div>
 
-        <p className="text-gray-600 mb-6 leading-relaxed">
+        <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
           A sustainable fashion startup struggled with low engagement
           and brand awareness despite high-quality products. We revamped
           their social media strategy by implementing influencer
@@ -37,22 +37,22 @@ const ClientSuccess = () => {
           powerful revenue-driving asset.
         </p>
 
-        <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md">
+        <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 mb-2 rounded-md">
           See More
         </button>
       </div>
 
       {/* RIGHT IMAGES */}
-      <div className="flex gap-6">
+      <div className="flex gap-4 sm:gap-6 w-full lg:w-auto justify-center lg:justify-start">
         <img
           src={c10}
           alt="client success 1"
-          className="w-[220px] h-[300px] object-cover rounded-2xl"
+          className="w-[160px] sm:w-[200px] lg:w-[220px] h-[240px] sm:h-[280px] lg:h-[300px] object-cover rounded-2xl"
         />
         <img
           src={image9}
           alt="client success 2"
-          className="w-[220px] h-[200px] object-cover rounded-2xl"
+          className="w-[160px] sm:w-[200px] lg:w-[220px] h-[160px] sm:h-[180px] lg:h-[200px] object-cover rounded-2xl"
         />
       </div>
     </section>
