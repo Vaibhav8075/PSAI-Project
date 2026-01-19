@@ -1,3 +1,10 @@
+import React from "react";
+
+// ✅ Import images (Vite-safe)
+import c10 from "../../assets/images/c10.png";
+import social8 from "../../assets/images/social8.png";
+import social9 from "../../assets/images/social9.png";
+
 const PortfolioHero = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between mt-20 gap-12">
@@ -27,19 +34,21 @@ const PortfolioHero = () => {
       {/* RIGHT IMAGES */}
       <div className="relative w-[380px] h-[420px]">
         <img
-          src="/src/assets/images/c10.png"
+          src={c10}
+          alt="portfolio visual 1"
           className="absolute top-0 left-0 w-[160px] rounded-2xl"
         />
         <img
-          src="/src/assets/images/social8.png"
+          src={social8}
+          alt="portfolio visual 2"
           className="absolute top-28 right-0 w-[160px] rounded-2xl"
         />
         <img
-          src="/src/assets/images/social9.png"
+          src={social9}
+          alt="portfolio visual 3"
           className="absolute bottom-0 left-9 w-[160px] rounded-2xl"
         />
       </div>
-
     </section>
   );
 };
