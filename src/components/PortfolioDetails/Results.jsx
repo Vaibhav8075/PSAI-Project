@@ -1,4 +1,4 @@
-import resultImg from "../../assets/images/image (11).png";
+import resultImg from "../../assets/images/image(11).png";
 
 const results = [
   "300% increase in engagement within three months.",

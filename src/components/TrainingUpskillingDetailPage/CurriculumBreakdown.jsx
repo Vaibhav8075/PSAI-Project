@@ -5,7 +5,7 @@ const CurriculumBreakdown = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
           <div className="flex justify-center">
             <img
-              src="src/assets/images/image (15).png"
+              src="src/assets/images/image(15).png"
               alt="Curriculum work"
               className="w-35 max-w-xs h-420px object-cover rounded-2xl"
             />
@@ -24,7 +24,7 @@ const CurriculumBreakdown = () => {
 
           <div className="flex justify-center">
             <img
-              src="src/assets/images/image (16).png"
+              src="src/assets/images/image(16).png"
               alt="Design planning"
               className="w-35 max-w-xs h-420px object-cover rounded-2xl"
             />

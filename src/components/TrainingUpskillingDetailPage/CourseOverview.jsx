@@ -3,7 +3,7 @@ const CourseOverview = () => {
     <section className="w-full bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-16">
         <img
-          src="src/assets/images/image (13).png"
+          src="src/assets/images/image(13).png"
           className="rounded-xl object-cover"
         />
 
