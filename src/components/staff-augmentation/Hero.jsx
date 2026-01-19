@@ -4,8 +4,6 @@ import img3 from "../../assets/sa-3.jpg";
 const Hero = () => {
   return (
     <section className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
-      
-      {/* LEFT */}
       <div>
         <h1 className="text-4xl font-bold text-black mb-6">
           Staff Augmentation
@@ -19,8 +17,7 @@ const Hero = () => {
         </p>
       </div>
 
-      {/* RIGHT – IMAGE COLLAGE */}
-      <div className="relative w-full h-[420px]">
+      <div className="relative w-full h-105">
         <img
           src={img1}
           className="absolute top-0 right-0 w-64 rounded-xl shadow-lg"
