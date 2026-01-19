@@ -2,7 +2,7 @@ import React from "react";
 
 // ✅ Import images (Vite-safe)
 import c10 from "../../assets/images/c10.png";
-import image9 from "../../assets/images/image-9.png";
+import image9 from "../../assets/images/c1.png";
 
 const ClientSuccess = () => {
   return (
