@@ -17,10 +17,10 @@ const HeroSection = () => {
     }
   };
 
-  const heroImages = ["/image.png","/Vector 3.png","/image (1).png", "/image (2).png"];
+  const heroImages = ["/image.png", "/Vector 3.png", "/image (1).png", "/image (2).png"];
 
   return (
-    <section className="bg-white">
+    <section className="bg-[#f5f5f7]">
       <div className="max-w-5xl mx-auto px-6 py-12 lg:py-16 text-center">
         <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
           Empowering Innovation, Securing the Future
@@ -28,7 +28,7 @@ const HeroSection = () => {
 
         <div className="mt-8 flex justify-center">
           <div className="flex items-stretch gap-3">
-            <div className="h-24 lg:h-28 w-10 flex-shrink-0">
+            <div className="h-24 lg:h-32 w-10 flex-shrink-0">
               <img
                 src="/Vector 2.png"
                 alt=""
@@ -38,7 +38,10 @@ const HeroSection = () => {
             {heroImages.map((src) => (
               <div
                 key={src}
-                className="h-24 lg:h-28 w-32 lg:w-40 "
+                className="h-24 lg:h-32 w-32 lg:w-48 overflow-hidden"
+                style={{
+                  clipPath: "polygon(10% 0, 100% 0, 90% 100%, 0 100%)",
+                }}
               >
                 <img
                   src={src}

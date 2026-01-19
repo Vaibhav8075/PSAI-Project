@@ -28,7 +28,7 @@ const AboutHero = () => {
         </div>
         <div className="rounded-2xl overflow-hidden bg-black/40">
           <img
-            src="src/assets/training.jpg"
+            src="/aboutus.png"
             alt="About Param Jyoti"
             className="w-full h-64 lg:h-72 object-cover opacity-90"
           />
