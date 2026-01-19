@@ -2,7 +2,6 @@ const CTASection = () => {
   return (
     <section className="px-6 mb-20">
       <div className="bg-white rounded-2xl shadow-md px-10 py-12 flex flex-col lg:flex-row items-center mx-4 justify-between gap-6">
-        
         <h2 className="text-3xl font-semibold text-center lg:text-left">
           Turn Followers Into New Customers
         </h2>

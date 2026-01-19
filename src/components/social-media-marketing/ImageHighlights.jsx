@@ -9,7 +9,7 @@ const ImageHighlights = () => {
     <section className="px-6 mt-10  mx-8">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {images.map((img, index) => (
-          <div key={index} className="h-[220px] rounded-2xl overflow-hidden">
+          <div key={index} className="h-55 rounded-2xl overflow-hidden">
             <img
               src={img}
               alt="highlight"

@@ -23,7 +23,9 @@ const blogs = [
 
 const BlogGrid = () => {
   return (
-    <section className="mt-12">
+    <section className="w-full bg-gray-50">
+<div className="mt-12">
+
       <h2 className="text-2xl font-semibold mb-8">
         Recent Blog Posts
       </h2>
@@ -34,7 +36,7 @@ const BlogGrid = () => {
             <img
               src={img}
               alt="blog"
-              className="rounded-2xl mb-4 h-[220px] w-full object-cover"
+              className="rounded-2xl mb-4 h-55 w-full object-cover"
             />
 
             <h3 className="font-semibold mb-2">
@@ -61,6 +63,7 @@ const BlogGrid = () => {
           Load More
         </button>
       </div>
+        </div>
     </section>
   );
 };

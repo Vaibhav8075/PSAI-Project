@@ -13,19 +13,19 @@ const SocialMediaMarketing = () => {
       <Hero />
       <ImageHighlights />
 
-       <div className="mt-32 lg:mt-40">
-      <div className="space-y-24 mx-10">
-        <div className="flex flex-col lg:flex-row gap-10 px-6">
-          <WhatWeDo />
-          <StatsCards />
-          <AboutYou />
-        </div>
+      <div className="mt-32 lg:mt-40">
+        <div className="space-y-24 mx-10">
+          <div className="flex flex-col lg:flex-row gap-10 px-6">
+            <WhatWeDo />
+            <StatsCards />
+            <AboutYou />
+          </div>
 
-        <AboutBenefits />
-        <ClientsShowcase />
-        <CTASection />
+          <AboutBenefits />
+          <ClientsShowcase />
+          <CTASection />
+        </div>
       </div>
-      </div> 
     </div>
   );
 };

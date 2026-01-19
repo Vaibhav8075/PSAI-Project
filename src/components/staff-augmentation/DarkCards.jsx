@@ -3,26 +3,21 @@ import texture from "../../assets/dark.png";
 const DarkCard = ({ title, text }) => {
   return (
     <div
-      className="relative text-white rounded-[40px] p-10 min-h-[420px]"
+      className="relative text-white rounded-[40px] p-10 min-h-105"
       style={{
         backgroundImage: `url(${texture})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      {/* Decorative shapes (IMPORTANT PART) */}
       <div className="absolute bottom-0 right-0 pointer-events-none">
-        {/* Long pill */}
         <div className="absolute -bottom-10 right-24 w-48 h-16 bg-white/10 rounded-full blur-sm"></div>
 
-        {/* Medium circle */}
         <div className="absolute -bottom-6 right-8 w-16 h-16 bg-white/10 rounded-full blur-sm"></div>
       </div>
 
-      {/* Extra floating circle */}
       <div className="absolute top-12 left-10 w-20 h-20 bg-white/5 rounded-full blur-md"></div>
 
-      {/* Content */}
       <h3 className="text-xl font-semibold mb-6 relative z-10 text-center">
         {title}
       </h3>

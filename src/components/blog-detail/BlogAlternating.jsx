@@ -35,9 +35,15 @@ const BlogAlternating = () => {
             content—can keep your brand relevant and competitive.
           </p>
 
-          <button className="bg-orange-500 text-white px-6 py-2 rounded-md">
-            Load More
-          </button>
+            <button className="bg-orange-500 text-white px-6 py-2 rounded-md">
+              Load More
+            </button>
+          </div>
+
+          <img
+            src="/src/assets/images/c8.png"
+            className="rounded-2xl w-full h-125"
+          />
         </div>
 
         <img
