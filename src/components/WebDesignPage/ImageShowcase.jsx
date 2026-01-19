@@ -1,9 +1,9 @@
 const ImageShowcase = () => {
   const images = [
-    "/src/assets/images/image (17).png",
-    "/src/assets/images/image (18).png",
-    "/src/assets/images/image (19).png",
-    "/src/assets/images/image (20).png",
+    "/src/assets/images/image(17).png",
+    "/src/assets/images/image(18).png",
+    "/src/assets/images/image(19).png",
+    "/src/assets/images/image(20).png",
   ];
 
   return (

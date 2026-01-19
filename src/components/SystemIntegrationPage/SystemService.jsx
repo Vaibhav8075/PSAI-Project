@@ -20,12 +20,12 @@ const SystemService = () => {
       <div className="space-y-6">
         <div className="grid grid-cols-2 gap-6">
           <img
-            src="src/assets/images/image (8).png"
+            src="src/assets/images/image(8).png"
             className="rounded-xl object-cover"
           />
           <div>
             <img
-              src="src/assets/images/image (9).png"
+              src="src/assets/images/image(9).png"
               className="rounded-xl object-cover"
             />
             <p className="text-black mb-4">

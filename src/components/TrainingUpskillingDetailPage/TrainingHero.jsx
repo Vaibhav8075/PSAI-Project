@@ -24,7 +24,7 @@ const TrainingHero = () => {
         </div>
 
         <img
-          src="src/assets/images/image (12).png"
+          src="src/assets/images/image(12).png"
           className="rounded-xl object-cover"
         />
       </div>

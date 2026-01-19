@@ -4,7 +4,7 @@ const SystemShowcase = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
         <div className="flex flex-col items-end text-center">
           <img
-            src="src/assets/images/image (10).png"
+            src="src/assets/images/image(10).png"
             alt="Client collaboration"
             className="w-full rounded-2xl object-cover mb-4"
           />
@@ -20,7 +20,7 @@ const SystemShowcase = () => {
 
         <div>
           <img
-            src="src/assets/images/image (11).png"
+            src="src/assets/images/image(11).png"
             alt="Client meeting"
             className="w-full h-full rounded-2xl object-cover"
           />
