@@ -61,7 +61,7 @@ const Services = () => {
 
       <SpecialService
         title="Staff Augmentation"
-        description="PJIPL offers staff augmentation solutions to help organizations scale efficiently with skilled professionals."
+        description="PJIPL offer staff augmentation solutions to help organizations scale efficiently with skilled professionals."
         imageLeft={software1}
         imageRight={software2}
         dominant="left"
