@@ -1,7 +1,24 @@
+import React from "react";
+
+// ✅ Import all images (Vite-safe)
+import c1 from "../../assets/images/c1.png";
+import c2 from "../../assets/images/c2.png";
+import c3 from "../../assets/images/c3.png";
+import c4 from "../../assets/images/c4.png";
+import c5 from "../../assets/images/c5.png";
+import c6 from "../../assets/images/c6.png";
+import c7 from "../../assets/images/c7.png";
+import c8 from "../../assets/images/c8.png";
+import c9 from "../../assets/images/c9.png";
+import c10 from "../../assets/images/c10.png";
+import c11 from "../../assets/images/c11.png";
+import c12 from "../../assets/images/c12.png";
+
+// ✅ Image array
 const blogs = [
-  "c1","c2","c3","c4",
-  "c5","c6","c7","c8",
-  "c9","c10","c11","c12"
+  c1, c2, c3, c4,
+  c5, c6, c7, c8,
+  c9, c10, c11, c12
 ];
 
 const BlogGrid = () => {
@@ -17,7 +34,7 @@ const BlogGrid = () => {
         {blogs.map((img, index) => (
           <div key={index}>
             <img
-              src={`/src/assets/images/${img}.png`}
+              src={img}
               alt="blog"
               className="rounded-2xl mb-4 h-55 w-full object-cover"
             />
@@ -27,15 +44,16 @@ const BlogGrid = () => {
             </h3>
 
             <p className="text-sm text-gray-600 mb-3">
-              Social media marketing is the use of social media platforms promote .
+              Social media marketing is the use of social media platforms promote.
             </p>
 
             <div className="flex items-center gap-2 text-xs text-gray-500">
-  <div className="w-5 h-5 rounded-full text-center bg-gray-300"><p>T</p></div>
-  <span>Tracey Wilson</span>
-  <span>August 02, 2025</span>
-</div>
-
+              <div className="w-5 h-5 rounded-full text-center bg-gray-300">
+                <p>T</p>
+              </div>
+              <span>Tracey Wilson</span>
+              <span>August 02, 2025</span>
+            </div>
           </div>
         ))}
       </div>

@@ -1,33 +1,42 @@
 import React, { useState } from "react";
 
+// ✅ Import images (Vite-safe)
+import scroll1 from "../../assets/images/scroll1.png";
+import scroll2 from "../../assets/images/scroll2.png";
+import scroll3 from "../../assets/images/scroll3.png";
+import scroll4 from "../../assets/images/scroll4.png";
+import scroll5 from "../../assets/images/scroll5.png";
+import scroll6 from "../../assets/images/scroll6.png";
+import scroll7 from "../../assets/images/scroll7.png";
+
 const services = [
   {
     title: "Social Media Marketing",
-    image: "src/assets/images/scroll1.png",
+    image: scroll1,
   },
   {
     title: "Web Design",
-    image: "src/assets/images/scroll2.png",
+    image: scroll2,
   },
   {
     title: "System Integration",
-    image: "src/assets/images/scroll7.png",
+    image: scroll7,
   },
   {
     title: "Staff Augmentation",
-    image: "src/assets/images/scroll3.png",
+    image: scroll3,
   },
   {
     title: "Software Development",
-    image: "src/assets/images/scroll4.png",
+    image: scroll4,
   },
   {
     title: "Training & Upskilling",
-    image: "src/assets/images/scroll5.png",
+    image: scroll5,
   },
   {
     title: "Hardware Maintenance",
-    image: "src/assets/images/scroll6.png",
+    image: scroll6,
   },
 ];
 
@@ -44,7 +53,9 @@ const ServicesHero = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-16 text-center">
-      <h2 className="text-2xl font-semibold mb-8">All our Services</h2>
+      <h2 className="text-2xl font-semibold mb-8">
+        All our Services
+      </h2>
 
       <div className="relative rounded-2xl overflow-hidden">
         <img
